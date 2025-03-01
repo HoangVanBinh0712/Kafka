@@ -5,7 +5,7 @@ A simple repository that contains the `docker-compose.yml` file to create multip
 # How to use
 <strong>Step 1:</strong> Run command `docker-compose up -d` to pull the images and create containers
 <br>
-<strong>Step 2:</strong> Run command `docker exec -it kafka1 kafka-topics --create --topic my-topic --bootstrap-server localhost:9091,localhost:9092,localhost:9093 --partitions 5 --replication-factor 3` to create topic
+<strong>Step 2:</strong> Run command `docker exec -it kafka1 kafka-topics --create --topic my-topic --bootstrap-server localhost:9091,localhost:9092,localhost:9093 --partitions 5 --replication-factor 3` to create a topic
 <br>
 <strong>Step 3:</strong> Run `Consumer.java` and `Producer.java`
 
